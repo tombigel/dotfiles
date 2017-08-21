@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# Update .zshrc with installed brew packages and with relevant plugins
+# Update .zshrc with installed brew packages and with relevant plugins, 
+# this does not check for existing settings
 echo "Updating .zshrc with plugins and some installed packages prerequisits"
 
 cat >> ~/test << EOF
@@ -13,6 +14,3 @@ export PATH="$HOME/.yarn/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
 EOF
-
-
-
