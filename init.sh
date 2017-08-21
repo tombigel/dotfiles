@@ -9,8 +9,8 @@ echo ""
 echo "Do you wish to continue?"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes, lets go ) break;;
-        No, stop now ) exit;;
+        Yes ) break;;
+        No ) exit;;
     esac
 done
 
