@@ -3,22 +3,31 @@
 # Install Homebrew or update if already installed
 which -s brew
 if [[ $? != 0 ]] ; then
-    # Install Homebrew
+    echo "Installing Homebrew"
+    
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
+    echo "Updating Homebrew"
+    
     brew update
 fi
 
 # Install brew-cask
+echo "Installing brew-cask"
+
 brew tap caskroom/cask
 
 # Install brew cli packages
+echo "Installing brew cli packages"
+
 brew install git 
 brew install nvm 
 brew install yarn 
 brew install zsh zsh-syntax-highlighting
 
 # Install brew-cask packages
+echo "Installing brew-cask gui packages"
+
 brew cask install iterm2 
 brew cask install google-chrome 
 brew cask install opera 
