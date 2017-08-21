@@ -13,12 +13,12 @@ select yn in "Yes" "No"; do
 done
 
 # Install things
-sh -c scripts/installations.sh
+./scripts/installations.sh
 
 # Add stuff to .zshrc
-sh -c scripts/update_zshrc.sh
+./scripts/update_zshrc.sh
 
 # Change some macOs defaults
-.sh -c scripts/macos.sh
+./scripts/macos.sh
 
 echo "Done, I hope you got no errors in the process..."
