@@ -166,7 +166,10 @@ defaults write org.m0k.transmission BlocklistAutoUpdate -bool true
 # Randomize port on launch
 defaults write org.m0k.transmission RandomPort -bool true
 
-# Kill affected applications  
+###############################################################################
+# Kill affected applications                                                  #
+###############################################################################
+
 echo "Killing affected applications"
 
 for app in "Activity Monitor" \
