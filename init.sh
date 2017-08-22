@@ -22,5 +22,7 @@ done
 
 # Copy dotfiles to home dir
 # TODO
+# git config --global user.name "John Doe"
+# git config --global user.email johndoe@example.com
 
 echo "Done, I hope you got no errors in the process..."
