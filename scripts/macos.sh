@@ -176,6 +176,7 @@ for app in "Activity Monitor" \
         "Photos" \
 	"Transmission" \
 	"SystemUIServer"; do
+	echo "killing ${app}"
 	killall "${app}" #&> /dev/null
 done
 
