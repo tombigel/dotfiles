@@ -75,6 +75,10 @@ brew cask install skype
 # Design
 brew cask install adobe-creative-cloud
 
+# Quicklook Plugins
+# https://github.com/sindresorhus/quick-look-plugins
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
