@@ -22,6 +22,7 @@ brew install nvm
 brew install yarn 
 brew install zsh zsh-completions zsh-syntax-highlighting
 brew install z
+brew install mas
 
 echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -62,3 +63,16 @@ brew cask install adobe-creative-cloud
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# install app store apps
+echo "Installing app store apps, assumes you are signed in to app store"
+
+mas install 409183694 #Keynote 
+mas install 409201541 #Pages 
+mas install 409203825 #Numbers 
+mas install 409789998 #Twitter 
+mas install 803453959 #Slack
+mas install 937984704 #Amphetamine 
+
+#mas install 407963104 #Pixelmator 
+#mas install 1176895641 #Spark
