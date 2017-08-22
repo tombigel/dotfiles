@@ -97,9 +97,12 @@ fi
 
 # Manual installations
 
-echo "Manually Installing oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+if [ ! -d ~/.oh-my-zsh] ; then 
+  echo "Manually Installing oh-my-zsh"
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+fi
 
-echo "Backblaze installation only copied the installer, it needs to be manually installed"
-open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
-
+if [ ! -e /Applications/Backblaze.app] ; then 
+  echo "Backblaze installation only copied the installer, it needs to be manually installed"
+  open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
+fi
