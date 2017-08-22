@@ -24,9 +24,6 @@ brew install zsh zsh-completions zsh-syntax-highlighting
 brew install z
 brew install mas
 
-echo "Installing oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Install brew-cask packages
 echo "Installing brew-cask gui packages"
 
@@ -97,6 +94,11 @@ else
   # mas install 407963104 #Pixelmator 
   # mas install 1176895641 #Spark
 fi
+
+# Manual installations
+
+echo "Manually Installing oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo "Backblaze installation only copied the installer, it needs to be manually installed"
 open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
