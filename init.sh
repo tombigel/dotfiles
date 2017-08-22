@@ -17,10 +17,10 @@ done
 # Install things
 ./scripts/installations.sh
 
-# Add stuff to .zshrc
-./scripts/update_zshrc.sh
-
 # Change some macOs defaults
 ./scripts/macos.sh
+
+# Copy dotfiles to home dir
+# TODO
 
 echo "Done, I hope you got no errors in the process..."
