@@ -75,6 +75,9 @@ brew cask install skype
 # Design
 brew cask install adobe-creative-cloud
 
+# Gaming
+brew cask install steam steamcmd
+
 # Quicklook Plugins
 # https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
