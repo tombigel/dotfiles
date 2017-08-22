@@ -12,15 +12,15 @@
   who = shortlog -s --
   gui = !sh -c '/usr/local/opt/git/libexec/git-core/git-gui' 
   pullno = pull --no-edit
-	tags = log -n1 --pretty=format:%h%d
+  tags = log -n1 --pretty=format:%h%d
 [core]
-	excludesfile = ~/.gitignore_global
-	autocrlf = input
-	ignorecase = false
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+  ignorecase = false
 [push]
-	default = matching
+  default = matching
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
 [pull]
-	rebase = true
+  rebase = true
