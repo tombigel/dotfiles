@@ -65,14 +65,21 @@ brew cask install adobe-creative-cloud
 brew cleanup
 
 # install app store apps
-echo "Installing app store apps, assumes you are signed in to app store"
+echo "If you are signed into the appstore, Installing app store apps"
+mas account
+if [[ $? != 0 ]] ; then
+    echo "You need to be loggedin into the App Store"
+else
+  mas install 409183694 #Keynote 
+  mas install 409201541 #Pages 
+  mas install 409203825 #Numbers 
+  mas install 409789998 #Twitter 
+  mas install 803453959 #Slack
+  mas install 937984704 #Amphetamine 
 
-mas install 409183694 #Keynote 
-mas install 409201541 #Pages 
-mas install 409203825 #Numbers 
-mas install 409789998 #Twitter 
-mas install 803453959 #Slack
-mas install 937984704 #Amphetamine 
+  # mas install 407963104 #Pixelmator 
+  # mas install 1176895641 #Spark
+fi
 
-#mas install 407963104 #Pixelmator 
-#mas install 1176895641 #Spark
+
+
