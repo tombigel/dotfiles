@@ -17,12 +17,13 @@ brew tap caskroom/cask
 # Install brew cli packages
 echo "Installing brew cli packages"
 
-brew install git 
-brew install nvm 
-brew install yarn 
-brew install zsh zsh-completions zsh-syntax-highlighting
-brew install z
-brew install mas
+brew install git #Get Latest Git
+brew install nvm #Manage Mode versions
+brew install yarn #NPM alternative
+brew install zsh zsh-completions zsh-syntax-highlighting #Bash alternative
+brew install z #Tracks your most used directories
+brew install ag #Find alternative
+brew install mas #App Store  CLI
 
 # Install brew-cask packages
 echo "Installing brew-cask gui packages"
