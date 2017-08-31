@@ -19,7 +19,7 @@ To finish the installations we will need some predefined configuration files.
 ```cp ./configs/*.* ~/```
 
 ### Run Customization script
-This will change some macOs (and other programs) defaults to more convinient and reasanable ones.
+This will change some macOs (and other programs) defaults to more convinient and reasonable ones.
 
 ```./scripts/macos.sh```
 
