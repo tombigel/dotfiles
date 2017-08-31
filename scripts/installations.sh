@@ -96,8 +96,8 @@ else
   mas install 409201541 #Pages 
   mas install 409203825 #Numbers 
   mas install 408981434 #iMovie
-  # mas install 409789998 #Twitter 
-  mas install 485812721 #TweetDeck
+  mas install 409789998 #Twitter 
+  mas install 485812721 #TweetDeck (Alternative)
   mas install 803453959 #Slack
   mas install 937984704 #Amphetamine 
 
