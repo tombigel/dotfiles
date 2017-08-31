@@ -3,7 +3,7 @@
 # Install Homebrew or update existing if already installed
 which -s brew
 if [[ $? != 0 ]] ; then
-    echo "Installing Homebrew
+    echo "Installing Homebrew"
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
     echo "Updating Homebrew"
