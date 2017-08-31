@@ -2,7 +2,7 @@
 
 echo "Lets install stuff on your new Mac!"
 echo ""
-echo "This script assumes a clean macOs and an internet connection"
+echo "This script assumes a clean macOs installation with XCode (and xcode-select --install) and an internet connection"
 echo "It will try to install whatever possible through Homebrew and brew-cask"
 echo "You might want to go through the files in ./scripts and see that you like everything they do"
 echo ""
