@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Install Homebrew or update if already installed
+# Install Homebrew or update existing if already installed
 which -s brew
 if [[ $? != 0 ]] ; then
     echo "Installing Homebrew
@@ -18,12 +18,12 @@ brew tap caskroom/cask
 echo "Installing brew cli packages"
 
 brew install git #Get Latest Git
-brew install nvm #Manage Mode versions
+brew install nvm #Node version Manager
 brew install yarn #NPM alternative
 brew install zsh zsh-completions zsh-syntax-highlighting #Bash alternative
 brew install z #Tracks your most used directories
 brew install ag #Find alternative
-brew install mas #App Store  CLI
+brew install mas #App Store CLI
 
 # Install brew-cask packages
 echo "Installing brew-cask gui packages"
@@ -86,31 +86,33 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 # Remove outdated versions from the cellar.
 brew cleanup
 
-# install app store apps
-echo "If you are signed into the appstore, Installing app store apps"
+# Install app store apps
 mas account
 if [[ $? != 0 ]] ; then
-    echo "You need to be loggedin into the App Store"
+  echo "Can't run 'mas'. You need to be logged into the App Store"
 else
+# Free Apps  
   mas install 409183694 #Keynote 
   mas install 409201541 #Pages 
   mas install 409203825 #Numbers 
-  mas install 409789998 #Twitter 
+  mas install 408981434 #iMovie
+  # mas install 409789998 #Twitter 
+  mas install 485812721 #TweetDeck
   mas install 803453959 #Slack
   mas install 937984704 #Amphetamine 
 
-  # mas install 407963104 #Pixelmator 
-  # mas install 1176895641 #Spark
+  # Paid Apps, will only work if they were installed once before
+  mas install 407963104 #Pixelmator 
+  mas install 1176895641 #Spark
 fi
 
 # Manual installations
-
 if [ ! -d ~/.oh-my-zsh] ; then 
-  echo "Manually Installing oh-my-zsh"
+  echo "Installing oh-my-zsh from script" 
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
 if [ ! -e /Applications/Backblaze.app] ; then 
-  echo "Backblaze installation only copied the installer, it needs to be manually installed"
+  echo "Backblaze installation only copied the installer, it needs to run once"
   open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
 fi
