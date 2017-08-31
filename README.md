@@ -11,22 +11,24 @@ Setup for a new Mac
 This will first install "Homebrew", "brew-cask" (Homebrew for Graphic Apps) and "mas" (Command line for App Store).
 Then it will install stuff.
 
-* ```./scripts/installations.sh```
+```./scripts/installations.sh```
 
 ### Copy some dotfiles to the home directory
 To finish the installations we will need some predefined configuration files.
 
-* ```cp ./configs/*.* ~/```
+```cp ./configs/*.* ~/```
 
 ### Run Customization script
 This will change some macOs (and other programs) defaults to more convinient and reasanable ones.
 
-* ```./scripts/macos.sh```
+```./scripts/macos.sh```
 
 ### set some defaults
-
-* ```git config --global user.name "<YOUR NAME>"
-  git config --global user.email <YOUR EMAIL>```
+Default git credentials
+```
+  git config --global user.name "<YOUR NAME>"
+  git config --global user.email <YOUR EMAIL>
+```
 
 
 
