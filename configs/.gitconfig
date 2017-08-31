@@ -1,6 +1,6 @@
 [user]
-  name = name
-  email = email
+  name = <YOUR NAME>
+  email = <YOUR EMAIL>
 [alias]
   st = status
   ci = commit
