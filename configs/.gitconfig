@@ -7,11 +7,12 @@
   br = branch
   co = checkout
   df = diff
-  dfn = diff origin master --name-only
+  dfn = diff origin `git rev-parse --abbrev-ref HEAD` --name-only
   lg = log -p
   who = shortlog -s --
   gui = !sh -c '/usr/local/opt/git/libexec/git-core/git-gui' 
-  pullno = pull --no-edit
+  pull = pull --no-edit
+  merge = merge --no-edit
   tags = log -n1 --pretty=format:%h%d
 [core]
   excludesfile = ~/.gitignore_global
