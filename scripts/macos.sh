@@ -121,6 +121,9 @@ defaults write com.apple.dock autohide -bool true
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
+# Show recent apps and documents in the dock
+defaults write com.apple.dock persistent-others -array-add '{ "tile-data" = {"list-type" = 1; }; "tile-type" = "recents-tile";}'
+
 ###############################################################################
 # Photos.app                                                                  #
 ###############################################################################
