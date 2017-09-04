@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Install Homebrew or update existing if already installed
+# Install Homebrew or update if already installed
 which -s brew
 if [[ $? != 0 ]] ; then
     echo "Installing Homebrew"
@@ -17,13 +17,13 @@ brew tap caskroom/cask
 # Install brew cli packages
 echo "Installing brew cli packages"
 
-brew install git #Get Latest Git
-brew install nvm #Node version Manager
-brew install yarn #NPM alternative
-brew install zsh zsh-completions zsh-syntax-highlighting #Bash alternative
-brew install z #Tracks your most used directories
-brew install ag #Find alternative
-brew install mas #App Store CLI
+brew install git # Latest Git Version
+brew install nvm # Node Version Manage
+brew install yarn # NPM Alternative
+brew install zsh zsh-completions zsh-syntax-highlighting # Use ZSH Instead of Bash
+brew install z # Faster folder navigation
+brew install ag # Find Alternative (the_silver_searcher)
+brew install mas # Manage App Store apps from the CLI
 
 # Install brew-cask packages
 echo "Installing brew-cask gui packages"
@@ -45,6 +45,9 @@ brew cask install firefoxdeveloperedition
 # Network and Remote
 brew cask install teamviewer 
 brew cask install charles 
+
+# Virtual Machines
+brew cask install virtualbox virtualbox-extension-pack
 
 # Productivity
 brew cask install alfred 
@@ -86,33 +89,34 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 # Remove outdated versions from the cellar.
 brew cleanup
 
-# Install app store apps
+# install app store apps
 mas account
 if [[ $? != 0 ]] ; then
-  echo "Can't run 'mas'. You need to be logged into the App Store"
+    echo "To install AppStore apps, you need to be logged into the App Store, skipping."
 else
-# Free Apps  
+  echo "Installing free app store apps"
   mas install 409183694 #Keynote 
   mas install 409201541 #Pages 
   mas install 409203825 #Numbers 
   mas install 408981434 #iMovie
   mas install 409789998 #Twitter 
-  mas install 485812721 #TweetDeck (Alternative)
+  mas install 485812721 #TweetDeck
   mas install 803453959 #Slack
   mas install 937984704 #Amphetamine 
-
-  # Paid Apps, will only work if they were installed once before
+  
+  echo "Installing payed app store apps (Only if they were installed before)"
   mas install 407963104 #Pixelmator 
   mas install 1176895641 #Spark
 fi
 
 # Manual installations
+
 if [ ! -d ~/.oh-my-zsh] ; then 
-  echo "Installing oh-my-zsh from script" 
+  echo "Manually Installing oh-my-zsh"
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
 if [ ! -e /Applications/Backblaze.app] ; then 
-  echo "Backblaze installation only copied the installer, it needs to run once"
+  echo "Backblaze installation only copied the installer, it needs to be manually installed"
   open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
 fi
