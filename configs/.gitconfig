@@ -18,6 +18,7 @@
   excludesfile = ~/.gitignore_global
   autocrlf = input
   ignorecase = false
+  editor = subl
 [push]
   default = matching
 [filter "media"]
@@ -25,3 +26,4 @@
   smudge = git-media-smudge %f
 [pull]
   rebase = true
+  
