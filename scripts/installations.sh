@@ -76,8 +76,9 @@ brew cask install whatsapp
 brew cask install telegram
 brew cask install skype 
 
-# Design
+# Design & Font Management
 brew cask install adobe-creative-cloud
+brew cask install skyfonts
 
 # Gaming
 brew cask install steam steamcmd
