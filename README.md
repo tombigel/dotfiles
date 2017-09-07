@@ -23,13 +23,15 @@ This will change some macOs (and other programs) defaults to more convinient and
 
 ```./scripts/macos.sh```
 
-### set some defaults
+### Set some defaults
 Default git credentials
 ```
   git config --global user.name "<YOUR NAME>"
   git config --global user.email <YOUR EMAIL>
 ```
 
-
+### Advanced stuff
+In this gist there are scripts and instructions on how to change the MAximum open files limit in OS X and macOS.
+https://gist.github.com/tombigel/d503800a282fcadbee14b537735d202c
 
 
