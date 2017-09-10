@@ -1,5 +1,5 @@
 # Tombigel dotfiles
-Setup for a new Mac
+Setup for a new Mac For Front End Dev and Graphics
 
 ## Before everything 
 * install XCode CLI tools
@@ -14,7 +14,7 @@ Then it will install stuff.
 ```./scripts/installations.sh```
 
 ### Copy some dotfiles to the home directory
-To finish the installations we will need some predefined configuration files.
+To finish the installations we will need some predefined configuration files, or at least go through the files in the config directory and copy settings for yarn, nvm and zsh to your configuration files.
 
 ```cp ./configs/*.* ~/```
 
