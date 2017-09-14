@@ -7,7 +7,7 @@
   br = branch
   co = checkout
   df = diff
-  dfn = diff origin `git rev-parse --abbrev-ref HEAD` --name-only
+  dfn = diff origin $(git rev-parse --abbrev-ref HEAD) --name-only
   lg = log -p
   who = shortlog -s --
   gui = !sh -c '/usr/local/opt/git/libexec/git-core/git-gui' 
