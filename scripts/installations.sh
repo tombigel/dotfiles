@@ -39,8 +39,7 @@ brew cask install firefox
 # Dev Browsers
 brew cask install caskroom/versions/google-chrome-canary
 brew cask install safari-technology-preview
-brew cask install opera-developer
-brew cask install firefoxdeveloperedition
+brew cask install firefoxnightly multifirefox
 
 # Network and Remote
 brew cask install teamviewer 
