@@ -2,9 +2,11 @@
 Setup for a new Mac For Front End Dev and Graphics
 
 ## Before everything 
-* install XCode CLI tools
+* install Xcode CLI tools  
 ```xcode-select --install```
-* Make sure you are logged in to the App Store
+* MAke sure you accepted Xcode license  
+```sudo xcodebuild -license accept```
+* Make sure you are logged in to the App Store  
 
 ## Install and Setup
 ### Run installations
