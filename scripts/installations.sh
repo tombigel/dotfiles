@@ -55,7 +55,7 @@ brew cask install bettertouchtool
 # IDEs and Editors
 brew cask install sublime-text 
 brew cask install webstorm
-brew cask install atom 
+brew cask install atom atom-beta
 brew cask install visual-studio-code
 
 # Media
