@@ -120,7 +120,3 @@ if [ ! -e /Applications/Backblaze.app] ; then
   open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
 fi
 
-if [ ! -e /Applications/SkyFonts/SkyFonts.app] ; then 
-  echo "SkyFonts installation only copied the installer, it needs to be manually installed"
-  open '/usr/local/Caskroom/skyfonts/5.9.1.0/SkyFonts.app'
-
