@@ -49,7 +49,7 @@ brew cask install charles
 brew cask install virtualbox virtualbox-extension-pack
 
 # Productivity
-brew cask install alfred 
+brew cask install alfred #Powerpack is only in the standalone installation and not the App Store
 brew cask install bettertouchtool 
 
 # IDEs and Editors
@@ -102,6 +102,8 @@ else
   mas install 485812721 #TweetDeck
   mas install 803453959 #Slack
   mas install 937984704 #Amphetamine 
+  mas install 443987910 #1Password
+  mas install 425424353 #The Unarchiver
   
   echo "Installing payed app store apps (Only if they were installed before)"
   mas install 407963104 #Pixelmator 
