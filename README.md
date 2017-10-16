@@ -1,5 +1,5 @@
 # Tombigel dotfiles
-Setup for a new Mac For Front End Dev and Graphics
+Setup for a new Mac For Home use, Front End Dev and Graphic Design
 
 ## Before everything 
 * install Xcode CLI tools  
@@ -9,6 +9,11 @@ Setup for a new Mac For Front End Dev and Graphics
 * Make sure you are logged in to the App Store  
 
 ## Install and Setup
+
+Everything here is based on my personal installations and preferences.  
+You should go through the installation script and customization script and remove programs and customizations you don't need or use.  
+Of course that you could and should add stuff you use and I didn't include in my files.
+
 ### Run installations
 This will first install "Homebrew", "brew-cask" (Homebrew for Graphic Apps) and "mas" (Command line for App Store).
 Then it will install stuff.
