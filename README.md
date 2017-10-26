@@ -11,8 +11,8 @@ Setup for a new Mac For Home use, Front End Dev and Graphic Design
 ## Install and Setup
 
 Everything here is based on my personal installations and preferences.  
-You should go through the installation script and customization script and remove programs and customizations you don't need or use.  
-Of course that you could and should add stuff you use and I didn't include in my files.
+You should go through the installation script and the customization script and remove or comment out apps and customizations you don't need or use.  
+Of course that you could and should add stuff you use which I haven't included in my files.
 
 ### Run installations
 This will first install "Homebrew", "brew-cask" (Homebrew for Graphic Apps) and "mas" (Command line for App Store).
