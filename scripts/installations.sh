@@ -25,6 +25,7 @@ brew install tldr # Simplified and community-driven man pages
 brew install z # Faster folder navigation
 brew install ag # Find Alternative (the_silver_searcher)
 brew install mas # Manage App Store apps from the CLI
+brew install rust # Rust language
 
 # Install brew-cask packages
 echo "Installing brew-cask gui packages"
