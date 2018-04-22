@@ -25,7 +25,7 @@ brew install tldr # Simplified and community-driven man pages
 brew install z # Faster folder navigation
 brew install ag # Find Alternative (the_silver_searcher)
 brew install mas # Manage App Store apps from the CLI
-brew install rust # Rust language
+brew install rustup-initt # Rust language installer
 
 # Install brew-cask packages
 echo "Installing brew-cask gui packages"
@@ -123,5 +123,10 @@ fi
 if [ ! -e /Applications/Backblaze.app] ; then 
   echo "Backblaze installation only copied the installer, it needs to be manually installed"
   open '/usr/local/Caskroom/backblaze/latest/Backblaze Installer.app'
+fi
+
+if [ ! -d ~/.cargo] ; then
+echo "Running rustup Rust installer
+  ./usr/local/bin/rustup-init
 fi
 
