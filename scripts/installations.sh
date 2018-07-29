@@ -17,13 +17,14 @@ brew tap caskroom/cask
 # Install brew cli packages
 echo "Installing brew cli packages"
 
-brew install git # Latest Git Version
+brew install git tig # Latest Git Version and 'tig' ui
 brew install nvm # Node Version Manage
 brew install yarn # NPM Alternative
 brew install zsh zsh-completions zsh-syntax-highlighting # Use ZSH Instead of Bash
 brew install tldr # Simplified and community-driven man pages
 brew install z # Faster folder navigation
 brew install ag # Find Alternative (the_silver_searcher)
+brew install htop # Better 'top' utility
 brew install mas # Manage App Store apps from the CLI
 brew install rustup-initt # Rust language installer
 
@@ -105,12 +106,16 @@ else
   mas install 485812721 #TweetDeck
   mas install 803453959 #Slack
   mas install 937984704 #Amphetamine 
-  mas install 443987910 #1Password
+  mas install 1333542190 #1Password 7.x
   mas install 425424353 #The Unarchiver
   
-  echo "Installing payed app store apps (Only if they were installed before)"
+  echo "Installing payed app store apps - Only if they were installed (or purchased) before"
   mas install 407963104 #Pixelmator 
+  mas install 1289583905 #Pixelmator Pro 
   mas install 1176895641 #Spark
+  mas install 824171161 #Affinity Designer 
+  mas install 824183456 #Affinity Photo 
+  mas install 1116599239 #NordVPN
 fi
 
 # Manual installations
