@@ -26,7 +26,7 @@ brew install z # Faster folder navigation
 brew install ag # Find Alternative (the_silver_searcher)
 brew install htop # Better 'top' utility
 brew install mas # Manage App Store apps from the CLI
-brew install rustup-initt # Rust language installer
+brew install rustup-init # Rust language installer
 
 # Install brew-cask packages
 echo "Installing brew-cask gui packages"
