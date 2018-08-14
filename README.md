@@ -16,18 +16,18 @@ Also, note that the section where the script installs AppStore apps with MAS can
 
 You are more than welcome to fork and change the files to your liking, I'll appriciate bug reports and enhacement suggestions.
 
-### Run installations
+### Run [installations](https://github.com/tombigel/dotfiles/blob/master/scripts/installations.sh) 
 This will first install "Homebrew", "brew-cask" (Homebrew for Graphic Apps) and "mas" (Command line for App Store).
 Then it will install stuff.
 
 ```./scripts/installations.sh```
 
-### Copy some dotfiles to the home directory
+### Copy some [dotfiles](https://github.com/tombigel/dotfiles/tree/master/configs) to the home directory
 To finish the installations we will need some predefined configuration files, or at least go through the files in the config directory and copy settings for yarn, nvm and zsh to your configuration files.
 
 ```cp ./configs/*.* ~/```
 
-### Run Customization script
+### Run [Customization script](https://github.com/tombigel/dotfiles/blob/master/scripts/macos.sh)
 This will change some macOs (and other programs) defaults to more convinient and reasonable ones.
 
 ```./scripts/macos.sh```
