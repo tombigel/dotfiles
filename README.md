@@ -27,7 +27,7 @@ To finish the installations we will need some predefined configuration files, or
 
 ```cp ./configs/*.* ~/```
 
-### Run [Customization script](https://github.com/tombigel/dotfiles/blob/master/scripts/macos.sh)
+### Run [customization script](https://github.com/tombigel/dotfiles/blob/master/scripts/macos.sh)
 This will change some macOs (and other programs) defaults to more convinient and reasonable ones.
 
 ```./scripts/macos.sh```
