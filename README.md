@@ -11,8 +11,10 @@ Setup for a new Mac For Home use, Front End Dev and Graphic Design
 ## Install and Setup
 
 Everything here is based on my personal installations and preferences.  
-You should go through the installation script and the customization script and remove or comment out apps and customizations you don't need or use.  
-Of course that you could and should add stuff you use which I haven't included in my files.
+**You should go through the installation script and the customization script and remove or comment out apps and customizations you don't need or use.**  
+Also, note that the section where the script installs AppStore apps with MAS can only install previously installed and purchased apps.
+
+You are more than welcome to fork and change the files to your liking, I'll appriciate bug reports and enhacement suggestions.
 
 ### Run installations
 This will first install "Homebrew", "brew-cask" (Homebrew for Graphic Apps) and "mas" (Command line for App Store).
@@ -39,6 +41,7 @@ Customize the default git credentials
 
 ### Advanced stuff
 In this gist there are scripts and instructions on how to change the maximum open files limit in OS X and macOS.
+I needed it on my older Mac for development, didn't have to use it yet on my new one.
 https://gist.github.com/tombigel/d503800a282fcadbee14b537735d202c
 
 
