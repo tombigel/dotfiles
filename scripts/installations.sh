@@ -65,7 +65,8 @@ brew cask install visual-studio-code
 brew cask install vlc 
 brew cask install subler 
 brew cask install handbrake 
-brew cask install plex-media-server
+brew cask install plex-media-server # Server
+brew cask install plex # Mac Desktop app
 brew cask install transmission 
 
 # Backup and Cloud Storage
