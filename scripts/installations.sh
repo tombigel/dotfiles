@@ -43,6 +43,7 @@ brew cask install firefox
 brew cask install caskroom/versions/google-chrome-canary
 brew cask install safari-technology-preview
 brew cask install firefoxnightly multifirefox
+brew cask install microsoft-edge-dev
 
 # Network and Remote
 brew cask install teamviewer 
@@ -78,6 +79,7 @@ brew cask install dropbox
 brew cask install whatsapp 
 brew cask install telegram
 brew cask install skype 
+brew cask install slack 
 
 # Design
 brew cask install adobe-creative-cloud
@@ -87,7 +89,7 @@ brew cask install steam steamcmd
 
 # Quicklook Plugins
 # https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo ql-ansilove
 
 # Remove outdated versions and installation files from the cellar.
 brew cleanup
@@ -105,7 +107,7 @@ else
   mas install 408981434 #iMovie
   mas install 409789998 #Twitter 
   mas install 485812721 #TweetDeck
-  mas install 803453959 #Slack
+  # mas install 803453959 #Slack
   mas install 937984704 #Amphetamine 
   mas install 1333542190 #1Password 7.x
   mas install 425424353 #The Unarchiver
