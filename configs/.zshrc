@@ -100,7 +100,7 @@ export NVM_DIR="$HOME/.nvm"
 # Aliases
 
 # Find 'yarn link' linked modules in a project's node mdoules
-alias flinks = find node_modules/ -maxdepth 1 -type l -ls|grep yarn
+alias flinks="find node_modules/ -maxdepth 1 -type l -ls|grep yarn"
 
 
 
