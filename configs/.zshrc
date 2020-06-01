@@ -96,3 +96,12 @@ export PATH="$HOME/.yarn/bin:$PATH"
 # NVM init
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
+
+# Aliases
+
+# Find 'yarn link' linked modules in a project's node mdoules
+alias flinks = find node_modules/ -maxdepth 1 -type l -ls|grep yarn
+
+
+
+
