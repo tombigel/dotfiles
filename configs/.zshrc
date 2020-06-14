@@ -52,7 +52,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git github git-prompt brew brew-cask npm nvm jira sublime atom z grunt osx yarn zsh_reload sudo iterm2 rust cargo swiftpm)
+plugins=(git github git-prompt tig brew cask npm yarn nvm jira sublime atom vscode z grunt osx zsh_reload sudo iterm2 rust cargo swiftpm thefucck)
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
