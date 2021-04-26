@@ -38,11 +38,13 @@ brew cask install iterm2
 brew cask install google-chrome 
 brew cask install opera
 brew cask install firefox
+brew cask install brave-browser
 
 # Dev Browsers
+# https://wiki.mozilla.org/Nightly#How_do_I_install_Firefox_Nightly_alongside_Firefox_Release.3F_2
 brew cask install caskroom/versions/google-chrome-canary
 brew cask install safari-technology-preview
-brew cask install firefoxnightly multifirefox
+brew cask install firefoxnightly 
 brew cask install microsoft-edge-dev
 
 # Network and Remote
@@ -54,12 +56,12 @@ brew cask install virtualbox virtualbox-extension-pack
 
 # Productivity
 brew cask install alfred #Powerpack is only in the standalone installation and not the App Store
-brew cask install bettertouchtool 
+# brew cask install bettertouchtool 
 
 # IDEs and Editors
 brew cask install sublime-text 
 brew cask install webstorm
-brew cask install atom atom-beta
+# brew cask install atom atom-beta
 brew cask install visual-studio-code
 
 # Media
@@ -68,7 +70,7 @@ brew cask install subler
 brew cask install handbrake 
 brew cask install plex-media-server # Server
 brew cask install plex # Mac Desktop app
-brew cask install transmission 
+brew cask install transmission # for torrents
 
 # Backup and Cloud Storage
 brew cask install backblaze 
@@ -89,7 +91,7 @@ brew cask install steam steamcmd
 
 # Quicklook Plugins
 # https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo ql-ansilove
+brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
 
 # Remove outdated versions and installation files from the cellar.
 brew cleanup

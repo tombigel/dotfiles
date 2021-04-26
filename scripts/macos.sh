@@ -180,7 +180,7 @@ for app in "Activity Monitor" \
 	"Contacts" \
 	"Dock" \
 	"Finder" \
-        "Photos" \
+    "Photos" \
 	"Transmission" \
 	"SystemUIServer"; do
 	killall "${app}" &> /dev/null
