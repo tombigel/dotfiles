@@ -10,10 +10,6 @@ else
     brew update
 fi
 
-# Install brew-cask
-echo "Installing brew-cask"
-brew tap caskroom/cask
-
 # Install brew cli packages
 echo "Installing brew cli packages"
 
@@ -57,12 +53,14 @@ brew install virtualbox virtualbox-extension-pack
 # Productivity
 brew install alfred #Powerpack is only in the standalone installation and not the App Store
 # brew install bettertouchtool 
+brew install luna-display
 
 # IDEs and Editors
 brew install sublime-text 
 brew install webstorm
 # brew install atom atom-beta
 brew install visual-studio-code
+brew install github
 
 # Media
 brew install vlc 
@@ -71,6 +69,7 @@ brew install handbrake
 brew install plex-media-server # Server
 brew install plex # Mac Desktop app
 brew install transmission # for torrents
+brew install spotify
 
 # Backup and Cloud Storage
 brew install backblaze 
@@ -82,6 +81,7 @@ brew install whatsapp
 brew install telegram
 brew install skype 
 brew install slack 
+brew install discord 
 
 # Design
 brew install adobe-creative-cloud
@@ -112,6 +112,7 @@ else
   mas install 937984704 #Amphetamine 
   mas install 1333542190 #1Password 7.x
   mas install 425424353 #The Unarchiver
+  mas install 1351639930 #Gifski 
   
   echo "Installing payed app store apps - Only if they were installed (or purchased) before"
   mas install 407963104 #Pixelmator 
