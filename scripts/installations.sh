@@ -32,62 +32,62 @@ brew install rustup-init # Rust language installer
 echo "Installing brew-cask gui packages"
 
 # Terminal
-brew cask install iterm2 
+brew install iterm2 
 
 # Browsers
-brew cask install google-chrome 
-brew cask install opera
-brew cask install firefox
-brew cask install brave-browser
+brew install google-chrome 
+brew install opera
+brew install firefox
+brew install brave-browser
 
 # Dev Browsers
 # https://wiki.mozilla.org/Nightly#How_do_I_install_Firefox_Nightly_alongside_Firefox_Release.3F_2
-brew cask install caskroom/versions/google-chrome-canary
-brew cask install safari-technology-preview
-brew cask install firefoxnightly 
-brew cask install microsoft-edge-dev
+brew install caskroom/versions/google-chrome-canary
+brew install safari-technology-preview
+brew install firefoxnightly 
+brew install microsoft-edge-dev
 
 # Network and Remote
-brew cask install teamviewer 
-brew cask install charles 
+brew install teamviewer 
+brew install charles 
 
 # Virtual Machines
-brew cask install virtualbox virtualbox-extension-pack
+brew install virtualbox virtualbox-extension-pack
 
 # Productivity
-brew cask install alfred #Powerpack is only in the standalone installation and not the App Store
-# brew cask install bettertouchtool 
+brew install alfred #Powerpack is only in the standalone installation and not the App Store
+# brew install bettertouchtool 
 
 # IDEs and Editors
-brew cask install sublime-text 
-brew cask install webstorm
-# brew cask install atom atom-beta
-brew cask install visual-studio-code
+brew install sublime-text 
+brew install webstorm
+# brew install atom atom-beta
+brew install visual-studio-code
 
 # Media
-brew cask install vlc 
-brew cask install subler 
-brew cask install handbrake 
-brew cask install plex-media-server # Server
-brew cask install plex # Mac Desktop app
-brew cask install transmission # for torrents
+brew install vlc 
+browser install subler 
+brew install handbrake 
+brew install plex-media-server # Server
+brew install plex # Mac Desktop app
+brew install transmission # for torrents
 
 # Backup and Cloud Storage
-brew cask install backblaze 
-brew cask install backblaze-downloader
-brew cask install dropbox 
+brew install backblaze 
+brew install backblaze-downloader
+brew install dropbox 
 
 # Social
-brew cask install whatsapp 
-brew cask install telegram
-brew cask install skype 
-brew cask install slack 
+brew install whatsapp 
+brew install telegram
+brew install skype 
+brew install slack 
 
 # Design
-brew cask install adobe-creative-cloud
+brew install adobe-creative-cloud
 
 # Gaming
-brew cask install steam steamcmd
+brew install steam steamcmd
 
 # Quicklook Plugins
 # https://github.com/sindresorhus/quick-look-plugins
@@ -95,7 +95,6 @@ brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspici
 
 # Remove outdated versions and installation files from the cellar.
 brew cleanup
-brew cask cleanup
 
 # install app store apps
 mas account
