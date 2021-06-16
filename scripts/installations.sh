@@ -89,6 +89,9 @@ brew install adobe-creative-cloud
 # Gaming
 brew install steam steamcmd
 
+# Nostalgy
+brew install dosbox-x
+
 # Quicklook Plugins
 # https://github.com/sindresorhus/quick-look-plugins
 brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
