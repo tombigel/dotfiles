@@ -123,7 +123,7 @@ else
   mas install 1176895641 #Spark
   mas install 824171161 #Affinity Designer 
   mas install 824183456 #Affinity Photo 
-  mas install 1116599239 #NordVPN
+  # mas install 1116599239 #NordVPN
 fi
 
 # Manual installations
