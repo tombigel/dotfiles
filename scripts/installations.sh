@@ -38,7 +38,7 @@ brew install brave-browser
 
 # Dev Browsers
 # https://wiki.mozilla.org/Nightly#How_do_I_install_Firefox_Nightly_alongside_Firefox_Release.3F_2
-brew install caskroom/versions/google-chrome-canary
+brew install homebrew/cask-versions/google-chrome-canary
 brew install safari-technology-preview
 brew install firefoxnightly 
 brew install microsoft-edge-dev
