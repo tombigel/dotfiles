@@ -38,9 +38,9 @@ brew install brave-browser
 
 # Dev Browsers
 # https://wiki.mozilla.org/Nightly#How_do_I_install_Firefox_Nightly_alongside_Firefox_Release.3F_2
-brew install homebrew/cask-versions/google-chrome-canary
+brew install google-chrome-canary
 brew install safari-technology-preview
-brew install firefoxnightly 
+brew install firefox-nightly 
 brew install microsoft-edge-dev
 
 # Network and Remote
@@ -53,7 +53,7 @@ brew install virtualbox virtualbox-extension-pack
 # Productivity
 brew install alfred #Powerpack is only in the standalone installation and not the App Store
 # brew install bettertouchtool 
-brew install luna-display
+brew install homebrew/cask-drivers/luna-display
 
 # IDEs and Editors
 brew install sublime-text 
