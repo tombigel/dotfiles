@@ -14,7 +14,7 @@ fi
 echo "Installing brew cli packages"
 
 brew install git tig # Latest Git Version and 'tig' ui
-brew install nvm # Node Version Manage
+brew install fnm # Fast Node Manager
 brew install yarn # NPM Alternative
 brew install zsh zsh-completions zsh-syntax-highlighting # Use ZSH Instead of Bash
 brew install tldr # Simplified and community-driven man pages
