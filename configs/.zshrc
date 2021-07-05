@@ -70,7 +70,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git github git-prompt tig brew npm yarn nvm jira sublime vscode z grunt osx zsh_reload sudo iterm2 rust cargo swiftpm zsh_reload)
+plugins=(git github git-prompt tig brew npm yarn jira sublime vscode z grunt osx zsh_reload sudo iterm2 rust cargo swiftpm zsh_reload)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,33 +91,8 @@ fi
 # YARN path
 export PATH="$HOME/.yarn/bin:$PATH"
 
-# NVM init
-export NVM_DIR="$HOME/.nvm"
- [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
- [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-# Call 'nvm use' automatically when entering a directory with .nvmrc
-# https://github.com/nvm-sh/nvm#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file
-autoload -U add-zsh-hook
-load-nvmrc() {
-  local node_version="$(nvm version)"
-  local nvmrc_path="$(nvm_find_nvmrc)"
-
-  if [ -n "$nvmrc_path" ]; then
-    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
-
-    if [ "$nvmrc_node_version" = "N/A" ]; then
-      nvm install
-    elif [ "$nvmrc_node_version" != "$node_version" ]; then
-      nvm use
-    fi
-  elif [ "$node_version" != "$(nvm version default)" ]; then
-    echo "Reverting to nvm default version"
-    nvm use default
-  fi
-}
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
+# FNM Init - load node version by .nvmrc on directory change
+eval "$(fnm env --use-on-cd)"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
