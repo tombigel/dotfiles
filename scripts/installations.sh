@@ -10,6 +10,9 @@ else
     brew update
 fi
 
+# tap to versions
+brew tap homebrew/cask-versions
+
 # Install brew cli packages
 echo "Installing brew cli packages"
 
@@ -31,60 +34,36 @@ echo "Installing brew-cask gui packages"
 brew install iterm2 
 
 # Browsers
-brew install google-chrome 
-brew install opera
-brew install firefox
-brew install brave-browser
+brew install google-chrome firefox brave-browser
 
 # Dev Browsers
 # https://wiki.mozilla.org/Nightly#How_do_I_install_Firefox_Nightly_alongside_Firefox_Release.3F_2
-brew install google-chrome-canary
-brew install safari-technology-preview
-brew install firefox-nightly 
-brew install microsoft-edge-dev
+brew install google-chrome-canary afari-technology-preview firefox-nightly microsoft-edge-dev
 
 # Network and Remote
-brew install teamviewer 
-brew install charles 
+brew install teamviewer charles 
 
 # Virtual Machines
 brew install virtualbox virtualbox-extension-pack
 
 # Productivity
-brew install alfred #Powerpack is only in the standalone installation and not the App Store
-# brew install bettertouchtool 
-brew install homebrew/cask-drivers/luna-display
+# Powerpack is only in the standalone installation and not the App Store
+brew install alfred homebrew/cask-drivers/luna-display
 
 # IDEs and Editors
-brew install sublime-text 
-brew install webstorm
-# brew install atom atom-beta
-brew install visual-studio-code
-brew install github
+brew install sublime-text webstorm visual-studio-code github
 
 # Media
-brew install vlc 
-browser install subler 
-brew install handbrake 
-brew install plex-media-server # Server
-brew install plex # Mac Desktop app
-brew install transmission # for torrents
-brew install spotify
+brew install vlc subler handbrake plex transmission spotify mediainfo
 
 # Backup and Cloud Storage
-brew install backblaze 
-brew install backblaze-downloader
-brew install dropbox 
+brew install backblaze backblaze-downloader dropbox rsyncosx
 
 # Social
-brew install whatsapp 
-brew install telegram
-brew install skype 
-brew install slack 
-brew install discord 
+brew install whatsapp telegram skype slack discord 
 
 # Design
-brew install adobe-creative-cloud
+brew install adobe-creative-cloud blender 
 
 # Gaming
 brew install steam steamcmd
