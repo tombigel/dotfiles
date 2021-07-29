@@ -74,7 +74,7 @@ brew install dosbox-x
 
 # Quicklook Plugins
 # https://github.com/sindresorhus/quick-look-plugins
-brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
+brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo ql-ansilove quicklook-csv 
 
 # Remove outdated versions and installation files from the cellar.
 brew cleanup
