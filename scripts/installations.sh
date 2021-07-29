@@ -55,6 +55,7 @@ brew install sublime-text webstorm visual-studio-code github
 
 # Media
 brew install vlc subler handbrake plex transmission spotify mediainfo
+brew install --cask handbrake transmission mediainfo
 
 # Backup and Cloud Storage
 brew install backblaze backblaze-downloader dropbox rsyncosx
