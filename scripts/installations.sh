@@ -10,13 +10,14 @@ else
     brew update
 fi
 
-# tap to versions
+# tap to versions and drivers
 brew tap homebrew/cask-versions
+brew tap homebrew/cask-drivers
 
 # Install brew cli packages
 echo "Installing brew cli packages"
 
-brew install git tig # Latest Git Version and 'tig' ui
+brew install git git-gui tig # Latest Git Version and 'tig' ui
 brew install fnm # Fast Node Manager
 brew install yarn # NPM Alternative
 brew install zsh zsh-completions zsh-syntax-highlighting # Use ZSH Instead of Bash
@@ -38,7 +39,7 @@ brew install google-chrome firefox brave-browser
 
 # Dev Browsers
 # https://wiki.mozilla.org/Nightly#How_do_I_install_Firefox_Nightly_alongside_Firefox_Release.3F_2
-brew install google-chrome-canary afari-technology-preview firefox-nightly microsoft-edge-dev
+brew install google-chrome-canary safari-technology-preview firefox-nightly microsoft-edge-dev
 
 # Network and Remote
 brew install teamviewer charles 
@@ -48,7 +49,7 @@ brew install virtualbox virtualbox-extension-pack
 
 # Productivity
 # Powerpack is only in the standalone installation and not the App Store
-brew install alfred homebrew/cask-drivers/luna-display
+brew install alfred luna-display
 
 # IDEs and Editors
 brew install sublime-text webstorm visual-studio-code github
