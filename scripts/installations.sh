@@ -44,12 +44,12 @@ brew install google-chrome-canary safari-technology-preview firefox-nightly micr
 # Network and Remote
 brew install teamviewer charles 
 
-# Virtual Machines
-brew install virtualbox virtualbox-extension-pack
+# NO - Virtual Machines
+# brew install virtualbox virtualbox-extension-pack
 
 # Productivity
 # Powerpack is only in the standalone installation and not the App Store
-brew install alfred luna-display
+brew install alfred 
 
 # IDEs and Editors
 brew install sublime-text webstorm visual-studio-code github
@@ -75,7 +75,7 @@ brew install dosbox-x
 
 # Quicklook Plugins
 # https://github.com/sindresorhus/quick-look-plugins
-brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo ql-ansilove quicklook-csv 
+brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo quicklook-csv 
 
 # Remove outdated versions and installation files from the cellar.
 brew cleanup
