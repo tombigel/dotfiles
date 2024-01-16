@@ -4,37 +4,37 @@
 
 ### If you don't homebrew will try and do it for you, but I like having controll
 
-```
+```bash
 xcode-select --install
 ```
 
 ## Make sure you accepted Xcode license  
 
-```
+```bash
 sudo xcodebuild -license accept
 ```
 
 ## Install homebrew
 
-```
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ### Tap into "cask-versions' so you don't need to remember `--cask` all the time
 
-```
+```bash
 brew tap homebrew/cask-versions
 ```
 
 ## Install CLI tools
 
-```
+```bash
 brew install git git-gui tig fnm yarn zsh zsh-completions zsh-syntax-highlighting tldr z ag htop mas rustup-init
 ```
 
 ## Install GUI tools
 
-```
+```bash
 brew install iterm2 firefox google-chrome google-chrome-canary safari-technology-preview firefox-nightly microsoft-edge-dev teamviewer charles alfred sublime-text visual-studio-code github vlc subler handbrake plex transmission mediainfo backblaze backblaze-downloader dropbox rsyncosx telegram signal discord adobe-creative-cloud blender steam steamcmd dosbox-x qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo quicklook-csv
 
 brew install --cask handbrake transmission mediainfo
@@ -42,13 +42,13 @@ brew install --cask handbrake transmission mediainfo
 
 ## Run Oh My Zsh install script
 
-```
+```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ### update .zshrc with some stuff
 
-```
+```bash
 # Time format
 HIST_STAMPS="yyyy-mm-dd"
 
