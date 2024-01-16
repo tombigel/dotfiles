@@ -35,7 +35,7 @@ brew install git git-gui tig fnm yarn zsh zsh-completions zsh-syntax-highlightin
 ## Install GUI tools
 
 ```
-brew install iterm2 firefox google-chrome google-chrome-canary safari-technology-preview firefox-nightly microsoft-edge-dev teamviewer charles alfred sublime-text visual-studio-code github vlc subler handbrake plex transmission mediainfo backblaze backblaze-downloader dropbox rsyncosx telegram discord adobe-creative-cloud blender steam steamcmd dosbox-x qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo quicklook-csv
+brew install iterm2 firefox google-chrome google-chrome-canary safari-technology-preview firefox-nightly microsoft-edge-dev teamviewer charles alfred sublime-text visual-studio-code github vlc subler handbrake plex transmission mediainfo backblaze backblaze-downloader dropbox rsyncosx telegram signal discord adobe-creative-cloud blender steam steamcmd dosbox-x qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo quicklook-csv
 
 brew install --cask handbrake transmission mediainfo
 ```
