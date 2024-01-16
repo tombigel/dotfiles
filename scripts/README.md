@@ -75,6 +75,6 @@ alias yyb="yarn && yarn build"
 
 ## Run Rust installations
 
-```
+```bash
 ./usr/local/bin/rustup-init
 ```
