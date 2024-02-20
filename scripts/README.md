@@ -73,6 +73,17 @@ alias flinks="find node_modules/ -maxdepth 1 -type l -ls|grep yarn"
 alias yyb="yarn && yarn build"
 ```
 
+## Link main downloads folder to iCloud downloads
+
+```bash
+  # Make sure your Downlloads folder is empty before deleting it...
+  sudo rm -rf ~/Downloads
+  # Change <username> to your username
+  ln -s /Users/<username>/Library/Mobile\ Documents/com\~apple\~CloudDocs/Downloads  ~/Downloads
+  # Regain lost permissions
+  chmod -h 700 ~/Downloads
+```
+
 ## Run Rust installations
 
 ```bash
