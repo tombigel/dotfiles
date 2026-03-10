@@ -20,12 +20,6 @@ sudo xcodebuild -license accept
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Tap into "cask-versions' so you don't need to remember `--cask` all the time
-
-```bash
-brew tap homebrew/cask-versions
-```
-
 ## Install CLI tools
 
 ```bash
